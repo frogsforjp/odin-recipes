@@ -1,4 +1,21 @@
-* {
+* 
+/*
+
+Most of the notes in this file are just here for myself to reference
+what I've learned through this project and to help with committing these
+things to memory.
+
+It also shows some of my thought processes as a very novice coder. This
+may help me in the future if I ever decide to come back and identify bad
+habits from where they start.
+
+I'm very aware that learning to code without having direct feedback
+from an instructor may lead to these bad habits which is why I'm being
+diligent in taking steps to document my journey.
+
+*/
+
+{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color:#0E1C36;
@@ -6,7 +23,7 @@
     
     margin: 0 auto;
 
- /* setting margin to auto centered my website
+ /* "margin: 0 auto" centered my website
 
   maybe I can shift most of these properties to a div which would allow
   the title more width to look nicer instead of stacking on multiple
@@ -55,9 +72,11 @@ img {
     justify-content: center;
 }
 
-/* I ran into some issues with styling buttons so I chose to convert
-them from a tag to a class and then made a container for them to keep
-things neater.
+/* I ran into some issues with styling buttons (mainly that they stack 
+rather than sit on the same line) so I chose to convert them from an 
+inline element to a block by creating a container with a display
+property for them. Then I changed them from a tag to a class to make
+styling easier.
 
 I also learned how to get rid of the line at the bottom of links with
 the property "text-decoration: none."
