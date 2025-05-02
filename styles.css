@@ -3,6 +3,17 @@
     font-family:'Times New Roman', Times, serif;
     color:#0E1C36;
     line-height: 1.5;
+    
+    margin: 0 auto;
+
+ /* setting margin to auto centered my website
+
+  maybe I can shift most of these properties to a div which would allow
+  the title more width to look nicer instead of stacking on multiple
+  lines?
+
+ */
+
 }
 
 h1 {
@@ -44,6 +55,15 @@ img {
     justify-content: center;
 }
 
+/* I ran into some issues with styling buttons so I chose to convert
+them from a tag to a class and then made a container for them to keep
+things neater.
+
+I also learned how to get rid of the line at the bottom of links with
+the property "text-decoration: none."
+
+*/
+
 .button {
     text-decoration: none;
     margin: 10px;
@@ -54,6 +74,15 @@ img {
     border: 3px solid rgb(75, 78, 107);
 }
 
-/* edit font-family, font-size, and colors
-then remove any redundancies in CSS to finish
+/* 
+
+Ways to make this site neater if this was a bigger project:
+
+    Create a width property for buttons to make them a uniform size
+
+    edit font-family, font-size, and colors to improve aesthetics
+
+    remove any redundancies in CSS
+
+    button tag vs button class use cases?
 */
